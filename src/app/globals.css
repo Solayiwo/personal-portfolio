@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.myimage,
+.testimonial {
+  width: 300px;
+  height: 300px;
+}
+
+.thumbnail {
+  width: 500px;
+  height: 300px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -18,4 +29,62 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h4,
+h6 {
+  font-family: "Outfit", sans-serif; /* Titles and subtitles */
+}
+
+p {
+  font-family: "Open Sans", sans-serif; /* Paragraph text */
+}
+
+/* .border {
+  border: none;
+  border-bottom: 4px solid transparent;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-image: linear-gradient(
+    to right,
+    rgba(240, 138, 240, 0.856),
+    rgba(156, 18, 156, 0.936),
+    rgba(65, 26, 65, 0.901)
+  );
+  border-image-slice: 1;
+  border-radius: 15px;
+} */
+
+.border {
+  position: relative;
+  border: none; /*Remove the default border*/
+}
+
+.border::after {
+  content: "";
+  position: absolute;
+  bottom: 0; /*Place at the bottom for a bottom border*/
+  left: 0;
+  right: 0;
+  height: 3px; /*Border thickness*/
+  margin: 0 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: linear-gradient(
+    to right,
+    rgb(240, 138, 240),
+    rgb(240, 138, 240),
+    rgb(5, 2, 136),
+    rgb(107, 50, 107)
+  );
+}
+
+.hover-opac:hover {
+  background: linear-gradient(
+    to right,
+    rgba(144, 114, 228, 0.186),
+    rgba(144, 114, 228, 0.123),
+    rgba(144, 114, 228, 0.186)
+  );
 }

@@ -10,7 +10,8 @@ import project_1 from "@public/portfolio_project.png";
 import project_2 from "@public/portfolio_2.png";
 import project_3 from "@public/portfolio_3.png";
 import project_4 from "@public/portfolio_4.png";
-import project_5 from "@public/crudapp.png";
+import movie from "@public/movie.png";
+import crudapp from "@public/crudapp.png";
 
 export default function RecentWork() {
   const settings = {
@@ -52,9 +53,19 @@ export default function RecentWork() {
                   />
                 </div>
                 <div className="text-center">
-                  <h3>Slide 1</h3>
-                  <Link href="/">github source code</Link>
-                  <Link href="/">url link</Link>
+                  <h3 className="font-bold">Portfolio Project (React)</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/portfolioProjectVite"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link
+                    href="https://solam-portfolio-project-vite.vercel.app/"
+                    target="_blank"
+                  >
+                    url link
+                  </Link>
                 </div>
               </div>
 
@@ -67,9 +78,19 @@ export default function RecentWork() {
                   />
                 </div>
                 <div className="text-center">
-                  <h3>Slide 2</h3>
-                  <Link href="/">github source code</Link>
-                  <Link href="/">url link</Link>
+                  <h3 className="font-bold">Projectx</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/hta_projectx/"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link
+                    href="https://solayiwo.github.io/hta_projectx/"
+                    target="_blank"
+                  >
+                    url link
+                  </Link>
                 </div>
               </div>
 
@@ -82,9 +103,19 @@ export default function RecentWork() {
                   />
                 </div>
                 <div className="text-center">
-                  <h3>Slide 3</h3>
-                  <Link href="/">github source code</Link>
-                  <Link href="/">url link</Link>
+                  <h3 className="font-bold">A Learning Platform</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/learn_software_tech"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link
+                    href="https://solayiwo.github.io/learn_software_tech/"
+                    target="_blank"
+                  >
+                    url link
+                  </Link>
                 </div>
               </div>
 
@@ -98,24 +129,68 @@ export default function RecentWork() {
                 </div>
 
                 <div className="text-center">
-                  <h3>Slide 4</h3>
-                  <Link href="/">github source code</Link>
-                  <Link href="/">url link</Link>
+                  <h3 className="font-bold">Portfolio Project (Nextjs)</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/personal-portfolio"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link
+                    href="https://personal-portfolio-olayiwola-sulaimons-projects.vercel.app/"
+                    target="_blank"
+                  >
+                    url link
+                  </Link>
                 </div>
               </div>
+
               <div className="bg-purple-600">
                 <div className="bg-purple-600">
                   <Image
-                    src={project_5}
+                    src={movie}
                     alt="testimonial"
                     className=" border-2 thumbnail rounded-xl mx-auto mt-4 "
                   />
                 </div>
 
                 <div className="text-center">
-                  <h3>Slide 5</h3>
-                  <Link href="/">github source code</Link>
-                  <Link href="/">url link</Link>
+                  <h3 className="font-bold">Movielookup</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/movielookup"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link href="https://movielookup.vercel.app/" target="_blank">
+                    url link
+                  </Link>
+                </div>
+              </div>
+
+              <div className="bg-purple-600">
+                <div className="bg-purple-600">
+                  <Image
+                    src={crudapp}
+                    alt="testimonial"
+                    className=" border-2 thumbnail rounded-xl mx-auto mt-4 "
+                  />
+                </div>
+
+                <div className="text-center">
+                  <h3 className="font-bold">Simple CRUD Application</h3>
+                  <Link
+                    href="https://github.com/Solayiwo/simple-crud-app"
+                    target="_blank"
+                  >
+                    github source code
+                  </Link>
+                  <Link
+                    href="https://simple-crud-app-navy.vercel.app"
+                    target="_blank"
+                  >
+                    url link
+                  </Link>
                 </div>
               </div>
             </Slider>

@@ -16,7 +16,6 @@ export default function RecentWork() {
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Infinite loop
-    // margin: 8,
     speed: 500, // Transition speed
     slidesToShow: 2, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
@@ -37,9 +36,6 @@ export default function RecentWork() {
           <p>
             Projects I have worked on to showcase my skills on the feild of
             software engineering.
-            {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation */}
           </p>
         </div>
 

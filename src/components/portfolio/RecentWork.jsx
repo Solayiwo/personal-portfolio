@@ -10,7 +10,7 @@ import project_1 from "@public/portfolio_project.png";
 import project_2 from "@public/portfolio_2.png";
 import project_3 from "@public/portfolio_3.png";
 import project_4 from "@public/portfolio_4.png";
-import project_5 from "@public/portfolio_5.png";
+import project_5 from "@public/crudapp.png";
 
 export default function RecentWork() {
   const settings = {

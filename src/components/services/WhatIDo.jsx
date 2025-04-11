@@ -47,9 +47,24 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="flex justify-between items-center mb-6 border rounded-xl bg-zinc-700 p-7 hover-opac">
+          <div className="flex justify-between items-center border mb-6  rounded-xl bg-zinc-700 p-7 hover-opac">
             <div className="w-[20vw] font-bold text-2xl">
               <h6>03/</h6>
+            </div>
+            <div className="w-[30vw] capitalize">
+              <h4 className="font-bold text-2xl">Node.js & API </h4>
+            </div>
+            <div className="w-[50vw] text-justify">
+              <p>
+                Build robust API and efficient backend system of web
+                applications.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-between items-center mb-6 border rounded-xl bg-zinc-700 p-7 hover-opac">
+            <div className="w-[20vw] font-bold text-2xl">
+              <h6>04/</h6>
             </div>
 
             <div className="w-[30vw] capitalize font-bold text-2xl">
@@ -66,7 +81,7 @@ export default function Services() {
 
           <div className="flex justify-between items-center mb-6 border rounded-xl bg-zinc-700 p-7 hover-opac">
             <div className="w-[20vw] font-bold text-2xl">
-              <h6>04/</h6>
+              <h6>05/</h6>
             </div>
 
             <div className="w-[30vw] capitalize font-bold text-2xl">
